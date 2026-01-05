@@ -9,6 +9,7 @@ prevEl.addEventListener("click", () => {
   clearTimeout(timer);
   updateGallery();
 });
+// this is button
 nextEl.addEventListener("click", () => {
   x = x - 45;
   clearTimeout(timer);
